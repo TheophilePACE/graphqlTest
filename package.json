@@ -1,0 +1,28 @@
+{
+    "name": "graphql-test-swapi.co",
+    "version": "0.0.1",
+    "description": "A Graphql version of swapi.co",
+    "main": "app.js",
+    "author": {
+        "name": "Theophile Pace",
+        "email": "theophilepace@gmail.com",
+        "url": "https://github.com/TheophilePACE/"
+    },
+    "repository": {
+        "type": "github",
+        "url": "https://github.com/TheophilePACE/graphqlTest"
+    },
+    "dependencies": {
+        "express": "*",
+        "express-graphql": "*",
+        "graphql": "*",
+        "node-fetch": "^1.7.3"
+    },
+    "devDependencies": {
+        "nodemon": "^1.12.1"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    }
+}
